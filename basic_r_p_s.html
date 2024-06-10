@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+  <title>basic_r_p_s</title>
+</head>
+<body>
+  <p>
+    please select one
+  </p>
+  <button onclick="
+   const number=Math.random();
+    let selected;
+   if(number<1/3){
+    selected='Rock';
+   }
+   else if(number<2/3){
+    selected='Scissor'
+   }
+   else{
+    selected='Paper'
+   }
+   if(selected=='Rock'){ 
+    alert(`Computer selected ${selected}  it's a tie`)
+  }
+  else if(selected=='Scissor'){
+    alert(`Computer selected ${selected}  You win 🤩`)
+  }
+  else{
+    alert(`Computer selected ${selected}  You Loose`)
+  }
+  ">
+    Rock
+  </button>
+  <button onclick="
+  let number=Math.random();
+   let selected='';
+   if(number<1/3){
+    selected='Rock';
+   }
+   else if(number<2/3){
+    selected='Scissor'
+   }
+   else{
+    selected='Paper'
+   }
+   if(selected=='Paper'){ 
+    alert(`Computer selected ${selected}  it's a tie`)
+  }
+  else if(selected=='Rock'){
+    alert(`Computer selected ${selected}  You win 🤩`)
+  }
+  else{
+    alert(`Computer selected ${selected}  You Loose`)
+  }
+  ">
+    Paper
+  </button>
+  <button onclick="
+   let number=Math.random();
+   let selected;
+   if(number<1/3){
+    selected='Rock';
+   }
+   else if(number<2/3){
+    selected='Scissor'
+   }
+   else{
+    selected='Paper'
+   }
+   if(selected=='Scissor'){ 
+    alert(`Computer selected ${selected}  it's a tie`)
+  }
+  else if(selected=='Paper'){
+    alert(`Computer selected ${selected}  You win 🤩`)
+  }
+  else{
+    alert(`Computer selected ${selected}  You Loose`)
+  }
+  ">
+   Scissor
+  </button>
+  <script>
+   
+   
+  
+  </script>
+  </body>
+</html>
